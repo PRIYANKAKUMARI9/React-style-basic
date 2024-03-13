@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
+  let hello="priyanka"
+  let hii="kumari sharma"
+  let ji ="priyanka"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>{hello} {hii} {ji}</h1>
+     <h1 style={{color:"red",backgroundColor:"green"}}>priyanka ji</h1>
+     <h1 style={{color:"blue",backgroundColor:"yellowgreen"}}>My village name Pandit pur (saran)</h1>
     </div>
   );
 }
